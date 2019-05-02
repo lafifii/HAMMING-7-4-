@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/map_background"
+    android:orientation="vertical"
+    android:layout_centerHorizontal="true"
+    tools:context=".EncodeActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/poppins"
+        android:text="@string/Hamming"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="89dp"
+        android:fontFamily="@font/poppins"
+        android:text="@string/Encode"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="36sp" />
+
+    <EditText
+        android:id="@+id/Mensaje"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/white_input_text"
+        android:backgroundTint="#21e7b6"
+        android:ems="10"
+        android:foregroundTint="@android:color/holo_red_dark"
+        android:gravity="center"
+        android:hint="@string/hintInputEncode"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/white"
+        android:textColorHint="@color/colorPrimary"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/rpta"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/white_input_text"
+        android:backgroundTint="#646e9f"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/hintAnswer"
+        android:textColorHint="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="74dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/botoncod"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:background="@drawable/white_button"
+            android:backgroundTint="#21e7b6"
+            android:fontFamily="@font/poppins"
+            android:gravity="center"
+            android:onClick="Gotodecifrar"
+            android:text="@string/Encode"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/botonerror"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/white_button"
+            android:backgroundTint="#21e7b6"
+            android:fontFamily="@font/poppins"
+            android:gravity="center"
+            android:onClick="GotoError"
+            android:radius="30dp"
+            android:text="@string/Error"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/botonde"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/white_button"
+            android:backgroundTint="#21e7b6"
+            android:fontFamily="@font/poppins"
+            android:gravity="center"
+            android:onClick="GotoCorrect"
+            android:radius="30dp"
+            android:text="@string/Decode"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TPAlgebraLineal</string>
+    <string name="Hamming">H A M M I N G</string>
+    <string name="Menu">M E N U</string>
+    <string name="firstButtonString">ENCODE</string>
+    <string name="secondButtonString">INFORMATION</string>
+    <string name="thirdButtonString">CREDITS</string>
+    <string name="fourthButtonString">QR</string>
+    <string name="Encode">E N C O D E</string>
+    <string name="hintInputEncode">Please enter your text here ...</string>
+    <string name="Decode">D E C O D E</string>
+    <string name="Error">E R R O R</string>
+    <string name="hintAnswer">Your answer will appear here</string>
+    <string name="credits">CREDITS</string>
+    <string name="creditsText">Gracias al profesor Kenny Venegas</string>
+</resources>
