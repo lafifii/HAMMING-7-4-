@@ -1,5 +1,5 @@
 # HAMMING_7_4
-Android App made that codes and decodes text with binary interferences using Hamming(4,7)
+Android App made that codes and decodes text with binary interferences using Hamming(7,4)
 Explanation: https://prezi.com/tzecybhxvemh/?utm_campaign=share&utm_medium=copy 
 
 
