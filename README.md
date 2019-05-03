@@ -3,11 +3,11 @@ Android App made that codes and decodes text with binary interferences using Ham
 Explanation: https://prezi.com/tzecybhxvemh/?utm_campaign=share&utm_medium=copy 
 
 <p align="center">
-  <img width="250" height="500" src="https://github.com/lafifii/HAMMING_7_4/blob/master/Screenshots/Hamming1.PNG">
+  <img width="300" height="500" src="https://github.com/lafifii/HAMMING_7_4/blob/master/Screenshots/Hamming1.PNG">
   
-  <img width="250" height="500" src="https://github.com/lafifii/HAMMING_7_4/blob/master/Screenshots/Hamming2.PNG">
+  <img width="300" height="500" src="https://github.com/lafifii/HAMMING_7_4/blob/master/Screenshots/Hamming2.PNG">
   
-  <img width="250" height="500" src="https://github.com/lafifii/HAMMING_7_4/blob/master/Screenshots/Hamming3.PNG">
+  <img width="300" height="500" src="https://github.com/lafifii/HAMMING_7_4/blob/master/Screenshots/Hamming3.PNG">
   
-  <img width="250" height="500" src="https://github.com/lafifii/HAMMING_7_4/blob/master/Screenshots/Hamming4.PNG">
+  <img width="300" height="500" src="https://github.com/lafifii/HAMMING_7_4/blob/master/Screenshots/Hamming4.PNG">
 </p>
